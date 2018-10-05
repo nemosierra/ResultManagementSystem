@@ -1,0 +1,104 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: url(1.jpeg) repeat fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.containerbox
+{
+width:320px;
+height:420px;
+background:rgba(0,0,0,0.6);
+color:#fff;
+top:50%;
+left:50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+border-radius:5%;
+padding: 70px 30px;
+}
+
+.avatar
+{
+width:100px;
+height: 100px;
+border-radius: 60%;
+position: absolute;
+top: -11%;
+left: +35.5%;
+
+}
+
+h1
+{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+
+.containerbox p
+{
+ margin:3px;
+ padding:0;
+ font-weight:bold;
+}
+
+.containerbox input
+{
+width:100%
+
+padding:5px;
+}
+
+.containerbox input[type="text"], input[type="password"]
+{
+border:nonel
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size:16px;
+}
+
+.containerbox input[type="submit"]
+{
+ border:none;
+ outline: none;
+ height: 30px;
+ background: #fb2525;
+ color: #fff;
+ font-size:18px;
+ border-radius: 5%;
+ width: 37%;
+ margin-top: 7px;
+ margin-left: 3px;
+}
+
+.containerbox input[type="submit"]:hover
+{
+ cursor: pointer;
+ background: #ffc107;
+ color:#000;
+}
+
+.containerbox a
+{
+ text-decoration: none;
+ font-size:12px;
+ line-height: 20px;
+ color: darkgrey;
+ padding-top: 5px;
+}
+
+.containerbox a:hover
+{
+color: #ffc107;
+}
+
